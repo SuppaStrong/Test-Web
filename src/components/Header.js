@@ -1,12 +1,16 @@
 import Image from 'next/image';
-import { fromJSON } from 'postcss';
-import {
-    MenuIcon,
-    SearchIcon,
-    ShoppingCartIcon,
-} from '@heroicons/react/outline';
+import {MenuIcon,SearchIcon,ShoppingCartIcon,} from '@heroicons/react/outline';
+import {  signIn, signOut, useSession } from "next-auth/client";
+import { useRouter } from 'next/router';
+import { selectItems } from '../slices/basketSlice';
+import { useSelector } from 'react-redux';
 
 function Header() {
+
+  const [session] = useSession();
+  const router = useRouter();
+  const items = useSelector(selectItems);
+  
     return (
       <header>
         {/* Top nav */}
@@ -14,6 +18,7 @@ function Header() {
         <div className="flex items-center flex-grow p-1 py-2 bg-amazon_blue">
           <div className="flex items-center flex-grow mt-px sm:flex-grow-0">
             <Image
+              onClick={() => router.push("/")}
               src="https://links.papareact.com/f90"
               height={40}
               width={150}
@@ -31,17 +36,25 @@ function Header() {
           </div>
           {/* Right */}
           <div className="flex items-center mx-6 space-x-6 text-xs text-white">
-            <div className="link">
-              <p className="font-normal ">Hello ! </p>
+            <div
+              onClick={!session ? signIn : signOut}
+              className="cursor-pointer link"
+            >
+              <p className="font-normal ">
+                {session ? `Hello , ${session.user.name}` : "Hello !!"}
+              </p>
               <p className="font-bold md:text-sm">Account & Lists </p>
             </div>
             <div className="link">
               <p className="font-normal">Returns</p>
               <p className="font-bold md:text-sm">Order</p>
             </div>
-            <div className="relative flex items-center link">
+            <div
+              onClick={() => router.push("/checkout")}
+              className="relative flex items-center link"
+            >
               <span className="absolute top-0 right-0 w-4 h-4 text-center text-black bg-yellow-600 rounded-full md:right-10 ">
-                4
+                {items.length}
               </span>
               <ShoppingCartIcon className="h-10" />
               <p className="hidden font-bold md:text-sm md:inline">Basket</p>

@@ -12,21 +12,20 @@ export default function Home({ products }) {
       {/* Begin of website */}
       <Header />
       <main className="mx-auto max-w-screen-2xl ">
-          <Banner />
-          <ProductFeed products={products} />
+        <Banner />
+        <ProductFeed products={products} />
       </main>
     </div>
   );
 }
 
-export async function getServerSideProps(context){
+export async function getServerSideProps(context) {
   const products = await fetch("https://fakestoreapi.com/products").then(
-    res => res.json()
+    (res) => res.json()
   );
-  return { 
+  return {
     props: {
       products,
     },
-  }
+  };
 }
-
