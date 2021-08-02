@@ -63,7 +63,7 @@ function Product({ key , id, title, price, description, category, image }) {
       )}
       <p className="my-2 text-xs line-clamp-2">{description}</p>
       <div className="mb-5">
-        <Currency quantity={price} currency="VND" />
+        <Currency quantity={price} currency="USD" />
       </div>
       <button onClick={addItemToBasket} className="mt-auto button">Add to Basket</button>
     </div>

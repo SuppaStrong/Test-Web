@@ -33,7 +33,7 @@ function CheckoutProduct({
             ))}
         </div>
         <p className="my-2 text-xs line-clamp-3 ">{description}</p>
-        <Currency quantity={price} currency="VND" />
+        <Currency quantity={price} currency="USD" />
 
         {hasPrime && (
           <div className="flex items-center space-x-1">

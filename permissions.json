@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "xiaomi-2-754c0",
+  "private_key_id": "d41802677dc528bda026943f2cae4849891e8b00",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC/AfBN52C6eVd9\n88TG18kP9SQQVeyvvVx+8ZglZSzL0ULFgRa6DuzVHaWNzZFNB3qsClyesyKeM/Au\n3T6BPoHAUxF+Pr0TUF37hYp4O27aqIUQ+zZKkTA2+ZBVwtxxYz4HmtSpknkEcIQE\nbweQmZt07GejzVS3WI5Wd8J/EZpm1JBcmJUZvraSv6qEdlk51AhMqJ3PbSN5ZwCG\nPvdwq1FrXjYpdtO9lGrcCRFy07wD2KzlVQK10b1r8hZMS54DzpXo19nVo/JJew0g\naITUW5f152vLAc/4f6124HhV87loOdSdSg2B9hXo1CpTPMZoqmL7+Yufg2htCbM4\nqXU8oUY5AgMBAAECggEACeJAjFNzAKs7QQf+cHiljZcWjubXWM+wa9w2DodR/lj9\nfslbgvS3Qh7m3HPc9zKyIRlnKgokejG/Vbl6nMb+gVR7FQCLmaaAun1ySR7wMU3j\nltmc+VZSe6HF2346GH71bIDRTNYIv5dP6YfSSSP9tJrwEPyUy+j/8o7/aEJhrjzu\nCYvvPjKYYSqnlWpgCp0f6MxcE1WGaC5MA6cEtqXqgLhXnq10SDekONP9ocKqNMMo\np4zh6Lx4idnCOMQSY46GXywHrbW16hBZx7X2edICDfERl4pDRfT2HrKtKh5QmgNx\nT7IGYAQZx6I/S3N0oUI6EF9Z8lXRvSNJNxMwxHceoQKBgQD7ZZ7l33khLLJeyFrM\nkortppY2c0NOPU3nNWOD7VfWG0O0r4A3YiFcT314WUOjL8yf5DhSZap9Q3ZAUzUu\n9BfbSFUWPy7QnJq1M9d8BgAv7WN1MMhchvm/JykW4pX7J4bWyrr+zNnc4oPXaLmO\nc0gWQ1+rYuDZOUORoZXpA5Da0QKBgQDCgUDZIfBjnPeXyLef+rThgoPyo+0o6r5x\nBK/d5rwKZBAjYO7u0Ln2wOsOXviOe4JnbHQp+PkpwGaK6rQsi+E7/82tvA8jKhKc\nk32jf4eOwzoJ61QrR2IHxtVg+bfcFWc7tmn8wctLtY7aQHTBpuyzwVhicLOwjW70\nBkcjF/O+6QKBgAo0IbLq0xvJmKPINgc/m2vx6v7ixsSSMGtF+3gLVhlWmfTneqjE\nzt3UTB9qYBhrhD6pILAXeEgFSPNrbSkutxkrYmi4v8mv0YexRvm9tJw9YmALTtaS\nk+hySnSnVbcP76UgLV7SKbWRbBB+K6nge/iLW4K1TLMEY/2xNUhz4JlBAoGANu3h\nrnBTPw55LbhVgyx+IKGHOeLpewCwP6KfN/+NYzHXDOa3E2KG4hShTTGs6DAhJ6wN\nMj1JwGzBiMG3mEz4ksUvBL1zWO7syqMsfBvr4HlpzptS7dX+7UtNv1FGhzTULpzZ\nWbQxAXSIn0JMttO5TRpxJ3vEgzut9eQ/+r0s7OECgYArVogkkEVP3bY2b7V0+K8J\nNNVQul49rc0gAOisZsjUlL60EfRddmWnDrnvHownfr81bowm4t4+2WYNqguW5ze3\ngq0E9j1vqe1hd6d34y/4TFdOb7ipNNSvqIngryiPfSS4tL4WYOtAhIgQEmqHVWip\nOXCt4/qW0IA4f3m5uarSdQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-mmfa0@xiaomi-2-754c0.iam.gserviceaccount.com",
+  "client_id": "115158300980946896203",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-mmfa0%40xiaomi-2-754c0.iam.gserviceaccount.com"
+}
